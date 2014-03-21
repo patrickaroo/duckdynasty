@@ -1,0 +1,27 @@
+using d3.js streamgraph...
+
+x series:
+latitude of survey unit
+thickness of band would be different duck species
+thickness of band would be how many of that latitude
+different shades would be different ducks
+
+roughly 16 species
+bunch of dabbling ducks... all shades of green
+bunch of diving ducks... all different of blue
+tundra swans... white
+sea ducks... dark shades (black to gray)
+merganser ducks... orange to red
+
+slider at bottom to move through years
+also... a run button to move through years
+
+from the shape file how to extract a number
+
+issues: smaller survey units vs larger survey units
+some overlap
+some latitudes don't have as many survey units as others
+candlesticks?
+
+also: noncontiguous cartogram
+

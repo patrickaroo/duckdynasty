@@ -1,0 +1,14 @@
+hypothesis:
+There are more birds in the south (and fewer birds in the north) when the north is icy.
+
+We are correlating the proportion of the total birds for each area with the winter temperature anomaly for the eastern US.
+
+1. convert absolute numbers of birds to proportions of total of each year.
+add a column to the right of each state for a proportion (or per scott: make a 'new dataframe' that's just proportions.
+2. join the bird data with the climate data
+add an extra column in the end for the temperature (from the data set Scott will send)
+
+3a. with R, run linear regression for state by state explaining proportion of birds as a function of the temperature
+this will give you an r-squared, p-value, and coefficient for temperature… you want an output for each state these three things
+we will look across all these states to see if there is a significant relationship between birds and temperature, and if that relationship is positive or negative
+4a. then we can refine with a finer spatial scale, using the text data set, where the data is broken out into zone segment, sub segment, and… the problem with the data is that some of the nomenclature has changed for zone subsegment, so needs cleaning
